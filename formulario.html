@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pesquisa sobre CAFE</title>
+        <style type="text/css">
+            #posicao {
+              background-size:cover; background-position:center; background-attachment:fixed; background-repeat: no-repeat;
+            }
+            #fonte{
+              font-size: larger;
+            }
+            #tamanho{
+                font-size: 9;
+            }
+    </style>
+</head>
+    </head>
+    <body background="AAAAAAAAAAAAAAAAAAAAAAAAAA.png" id="posicao">
+        <img src="logo.jpg" width="130" align="center">
+        <font color="40a167" id="tamanho"><b>Questionário sobre café</b></font>
+        <font size="4"><p>Agora, você irá responder algumas perguntas para podermos aprimorar e melhorar sua experiência com nosso café!</p></font>
+        <br>
+        <form action="formulario.html" method="get">
+
+
+            <fieldset>
+                <legend id="fonte">&rarr;Selecione seu sexo de nascimento:</legend>
+                <input type="radio" id="M" name="sexo">
+                <label for="M" name="sexo" value="M">Masculino</label>
+                <input type="radio" id="F" name="sexo">
+                <label for="F" value="F">Feminino</label>
+            </fieldset>
+            <br/>
+
+            <fieldset>
+                <legend id="fonte">&rarr;Selecione sua faixa etária:</legend>
+                <input type="radio" id="a" name="idade">
+                <label for="a" name="idade" value="-18">Menor que 18 anos</label>
+                <input type="radio" id="b" name="idade">
+                <label for="b" name="idade" value="19-30">De 19 a 30 anos</label>
+                <input type="radio" id="c" name="idade">
+                <label for="c" name="idade" value="31-50">De 31 a 50 anos</label>
+                <input type="radio" id="d" name="idade">
+                <label for="d" name="idade" value="51+">Maior que 50 anos</label>
+            </fieldset>
+            <br/>
+            
+            <label for="username"><h2>Qual café da cafeteria você prefere?</h2></label> 
+            <select>
+            <option value="Mistura de casa">Mistura de casa</option>
+            <option value="Café Arábico">Café Arábico</option>
+            <option value="Capuccino">Capuccino</option>
+            <option value="Chá">Chá</option>
+            </select>
+            <br/>
+            <br/>
+
+            <h2>Qual tipo de café você consumiria se tivesse em nossa cafeteria?</h2>
+            <input type="text" name="Cafeteria" value="">
+            <br/>
+            <br/>
+            
+            <h2>Com que frequência você visita a cafeteria?</h2>
+            <input type="radio" id="a" name="frequencia">
+            <label for="a" name="frequencia" value="1">1 dia na semana</label><font size="2">&nbsp;&nbsp;</font>
+            <input type="radio" id="b" name="frequencia">
+            <label for="b" name="frequencia" value="3">3 dias na semana</label><br/>
+            <input type="radio" id="c" name="frequencia">
+            <label for="c" name="frequencia" value="2">2 dias na semana</label>
+            <input type="radio" id="d" name="frequencia">
+            <label for="d" name="frequencia" value="4+">4 ou mais dias na semana</label>
+            <br/>
+            <br/>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Resetar formulário">
+        </form>
+        <br/>
+        <br/>
+        
+        <button href="index.html"><a href="index.html"><font size="2"><b>Voltar para página inicial</b></font></a></button>
+    </body>
+</html>
